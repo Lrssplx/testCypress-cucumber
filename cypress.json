@@ -1,0 +1,11 @@
+ 
+
+    {
+        "viewportWidth": 1024,
+        "viewportHeight": 768,
+        "defaultCommandTimeout": 10000,
+        "baseUrl": "https://react-redux.realworld.io/#/login"
+    }
+
+
+ 
