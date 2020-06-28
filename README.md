@@ -1,1 +1,2 @@
-# TestsCypress-Cucumber
+# Instruções
+- npx cypress open
