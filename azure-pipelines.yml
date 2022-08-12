@@ -12,10 +12,15 @@ pool:
 steps:
 - task: NodeTool@0
   inputs:
-    versionSpec: '10.x'
+    versionSpec: '14.x'
   displayName: 'Install Node.js'
+  
+  - task: Cypress
+  inputs:
+    versionSpec: '10.x'
+  displayName: 'Install Cypress'
 
 - script: |
     npm install
-    npm install cypress  
-  displayName: 'test pipeline azure devops'
+   
+  displayName: 'Test Pipeline Azure Devops'
