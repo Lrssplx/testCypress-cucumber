@@ -17,5 +17,5 @@ steps:
 
 - script: |
     npm install
-    npx cypress open
+    npm install cypress  
   displayName: 'npm install, build and test'
