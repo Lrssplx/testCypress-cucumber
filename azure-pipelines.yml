@@ -15,8 +15,7 @@ steps:
     versionSpec: '10.x'
   displayName: 'Install Node.js'
   
-- script:|
+- script: |
     npm install
-    npm install Cypress
-   
-  displayName: 'Test Pipeline Azure Devops'
+    npm install cypress  
+  displayName: 'npm install node and cypress '
